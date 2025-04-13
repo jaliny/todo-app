@@ -1,0 +1,19 @@
+<!-- Startseite der Anwendung, wird nach Login angezeigt -->
+<!-- Zeigt To-Dos, Zitat oder andere Benutzerinhalte -->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Meine To-Do App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Willkommen bei To-Do App!</h1>
+    <p>Diese Seite wurde über Flask geladen</p>
+
+    <button onclick="sayHi()">Sag Hallo</button>
+
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>

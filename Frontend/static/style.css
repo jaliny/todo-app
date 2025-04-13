@@ -1,0 +1,30 @@
+/* Enthält das Styling (Farben, Layout) für alle HTML-Seiten */
+
+/*Hintergrundfarbe, Textfarbe und Schrift */
+body {
+    background-color: #f3f3f3; /*hellgrauer Hintergrund*/
+    color: #222222; /*schwarzer text*/
+    font-family: Arial, sans-serif;
+    padding: 40px; /*Abstand zum Rand*/
+}
+
+/*Überschrift*/
+h1 {
+    color: #008080; /*türkisgrün*/
+    font-size: 2em;
+}
+
+/*Button-Stil*/
+button {
+    padding: 10px 20px; /*Abstand innerhalb des Buttons*/
+    font-size: 1em;
+    background-color: #008080;
+    color: white; /*weiße Schrift*/
+    border: none;
+    border-radius: 6px; /*leicht abgerundete Ecken*/
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006666;
+}
